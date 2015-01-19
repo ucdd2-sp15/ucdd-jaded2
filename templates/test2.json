@@ -1,0 +1,15 @@
+{
+ "type": "Block",
+ "children": [
+  {
+   "type": "Tag",
+   "name": "h1",
+   "text": "Heading 1"
+  },
+  {
+   "type": "Tag",
+   "name": "h2",
+   "text": "Heading 2"
+  }
+ ]
+}

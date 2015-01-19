@@ -1,0 +1,10 @@
+{
+ "type": "Block",
+ "children": [
+  {
+   "type": "Tag",
+   "name": "h1",
+   "text": "Welcome to Jade"
+  }
+ ]
+}

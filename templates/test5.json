@@ -1,0 +1,22 @@
+{
+ "type": "Block",
+ "children": [
+  {
+   "type": "Tag",
+   "name": "a",
+   "attrs": [
+    {
+     "name": "href",
+     "val": "'http://github.com'"
+    }
+   ],
+   "children": [
+    {
+     "type": "Tag",
+     "name": "h1",
+     "text": "Goto Github"
+    }
+   ]
+  }
+ ]
+}

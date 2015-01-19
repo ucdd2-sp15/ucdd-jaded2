@@ -1,0 +1,20 @@
+{
+  "name": "ucdd-jaded",
+  "version": "1.0.0",
+  "description": "Jaded Template Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "ucdd2-sp15",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "debug": "^2.1.1",
+    "glob": "^4.3.5",
+    "jade": "^1.9.1",
+    "jade-lexer": "0.0.3",
+    "jade-parser": "0.0.2",
+    "lodash": "^2.4.1"
+  }
+}
