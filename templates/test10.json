@@ -1,0 +1,22 @@
+{
+ "type": "Block",
+ "children": [
+  {
+   "type": "Each",
+   "val": "lan",
+   "obj": "languages",
+   "children": [
+    {
+     "type": "Tag",
+     "name": "h4",
+     "code": "lan.name "
+    },
+    {
+     "type": "Tag",
+     "name": "h4",
+     "code": "lan.years"
+    }
+   ]
+  }
+ ]
+}
