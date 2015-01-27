@@ -1,0 +1,22 @@
+{
+ "type": "Block",
+ "children": [
+  {
+   "type": "Each",
+   "val": "skill",
+   "obj": "skills",
+   "children": [
+    {
+     "type": "Tag",
+     "name": "h4",
+     "code": "skill.name "
+    },
+    {
+     "type": "Tag",
+     "name": "h4",
+     "code": "skill.years"
+    }
+   ]
+  }
+ ]
+}

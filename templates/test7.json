@@ -1,0 +1,32 @@
+{
+ "type": "Block",
+ "children": [
+  {
+   "type": "Tag",
+   "name": "h4",
+   "code": "article.title"
+  },
+  {
+   "type": "Tag",
+   "name": "h5",
+   "code": "article.author ",
+   "attrs": [
+    {
+     "name": "class",
+     "val": "'name'"
+    }
+   ]
+  },
+  {
+   "type": "Tag",
+   "name": "p",
+   "code": "article.content",
+   "attrs": [
+    {
+     "name": "class",
+     "val": "'content'"
+    }
+   ]
+  }
+ ]
+}

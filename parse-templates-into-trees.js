@@ -32,8 +32,12 @@ function simplify(block) {
                 name: node.name,
                 val: node.val,
             }
+            console.log(node)
             if (node.code) {
                 n.code = node.code.val
+            }
+            if (node.obj) {
+                n.obj = node.obj
             }
             if (node.attrs && node.attrs.length > 0) {
                 n.attrs = _.map(node.attrs, function(at) {
