@@ -11,7 +11,7 @@
      "attrs": [
       {
        "name": "class",
-       "val": "'title'"
+       "val": "\"title\""
       }
      ],
      "text": "UCDD 2 Spring 2015"

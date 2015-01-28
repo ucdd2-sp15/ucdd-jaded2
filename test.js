@@ -11,13 +11,13 @@ renderAndCompare('test3')
 renderAndCompare('test4')
 renderAndCompare('test5')
 
-function renderAndCompare(name) {    
+function renderAndCompare(name) {
     var jadeFile = 'templates/' + name + '.jade'
     var jsonFile = 'templates/' + name + '.json'
 
     // load the content of the jade template file for the test case into 'text'
     var text = fs.readFileSync(jadeFile, 'utf8')
-    
+
     // load the precomputed tree representation of the jade template file into 'tree'
     var tree = JSON.parse(fs.readFileSync(jsonFile, 'utf8'))
 
