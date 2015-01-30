@@ -7,7 +7,7 @@
    "attrs": [
     {
      "name": "href",
-     "val": "'http://github.com'"
+     "val": "\"http://github.com\""
     }
    ],
    "children": [
